@@ -1,0 +1,19 @@
+---
+Name: swipestreak-stocklevels
+---
+Order:
+  extensions:
+    - StreakStockLevel_OrderExtension
+Product:
+  extensions:
+    - StreakStockLevel_ProductExtension
+ProductForm:
+  extensions:
+    - StreakStockLevel_ProductFormExtension
+StreakStockLevel:
+  extensions:
+    - StreakStockLevel_StockLevelExtension
+StreakConfig:
+  extensions:
+    - StreakStockLevel_ConfigExtension
+
